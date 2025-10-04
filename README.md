@@ -45,9 +45,10 @@ though the code supports any folder-structured image dataset. Link to download t
 ├── train_models.py            # Training and validation of base models
 ├── attacks.py                 # Generation and evaluation of adversarial examples
 ├── adversarial_training.py    # FGSM and PGD-based adversarial training
-├── input_transformations.py   # Defensive transformations (median, blur, JPEG)
+├── input_transformations.py   # Defensive transformations (median, JPEG)
 ├── binary_classifier.py       # Logit-based adversarial detection model
 ├── models/                    # Directory for saved model checkpoints
+├── AT-models/                 # Directory for saved Adversarial Training models
 ├── training/ testing/ ...     # Dataset folders (ImageFolder structure)
 └── README.md
 </pre>
